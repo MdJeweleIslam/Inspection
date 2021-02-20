@@ -1,0 +1,31 @@
+﻿#backgroundPopup{
+	display:none;
+	position:fixed;
+	_position:absolute; /* hack for internet explorer 6*/
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	background:#000000;
+	border:1px solid #cecece;
+	z-index:1;
+}
+#popupContact{
+	display:none;
+	position:fixed;
+	_position:absolute; /* hack for internet explorer 6*/
+	width:400px;
+	height: auto;
+	background:#FFFFFF;
+	border:5px solid #666;
+	border-radius: 5px;
+	z-index:9999;
+	padding:20px;
+	font-size:14px;
+	color: #000;
+	text-align: justify;
+}
+#popupContact_mid { font-size:14px !important; line-height: 24px !important; }
+
+
+
